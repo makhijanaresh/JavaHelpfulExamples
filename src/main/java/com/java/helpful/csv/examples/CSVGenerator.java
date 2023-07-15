@@ -1,10 +1,15 @@
-package com.java.examples;
+package com.java.helpful.csv.examples;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Note: No third parth dependency used for this example
+ * @author Naresh Makhija
+ *
+ */
 public class CSVGenerator {
     
     private static final String COMMA_DELIMITER = ",";
@@ -59,7 +64,6 @@ public class CSVGenerator {
     }
     
     public static void main(String[] args) {
-        // Sample usage
         List<User> users = new ArrayList<>();
         users.add(new User(1, "Naresh Makhija", 25, "1234567890", "123 Main St"));
         users.add(new User(2, "Rahul", 30, "9876543210", "456 Elm St"));
