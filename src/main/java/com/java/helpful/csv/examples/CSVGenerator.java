@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Note: No third parth dependency used for this example
+ * Note: No third party dependency used for this example
  * @author Naresh Makhija
  *
  */
